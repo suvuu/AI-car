@@ -26,16 +26,19 @@ cars[i].brain=JSON.parse(
 
 const traffic=[
     new Car(road.getLaneCenter(1),-100,30,50,"DUMMY", 2),
-    new Car(road.getLaneCenter(0),-300,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(0),-140,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(2),-300,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(0),-500,30,50,"DUMMY", 2),
-    new Car(road.getLaneCenter(1),-500,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(2),-500,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(0),-600,30,50,"DUMMY", 2),
-    new Car(road.getLaneCenter(2),-6940,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(3),-940,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(2),-700,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(1),-850,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(1),-930,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(0),-1000,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(2),-1100,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(3),-1000,30,50,"DUMMY", 2),
+    new Car(road.getLaneCenter(3),-175,30,50,"DUMMY", 2),
     new Car(road.getLaneCenter(2),-1100,30,50,"DUMMY", 2),
 
 ]
